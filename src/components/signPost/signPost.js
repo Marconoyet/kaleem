@@ -100,6 +100,9 @@ class SignPost extends Component {
     return (
       <div>
         <form onSubmit={(e) => this.submit(e)}>
+          <div className={classes.containerImg}>
+            <img src={require('./profile.png')} alt="Profile photo" />
+          </div>
           <input
             placeholder="First Name"
             id="firstName"
@@ -164,13 +167,16 @@ class SignPost extends Component {
           ></input>
 
           <input
+            className={classes.time}
             placeholder="Time Zone"
             id="time"
             type="text"
             value={this.state.time}
             onChange={(event) => this.getTimeZone(event)}
           ></input>
-          <button>Submit</button>
+          <div className={classes.container}>
+            <button>Sign Up</button>
+          </div>
         </form>
       </div>
     );

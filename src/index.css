@@ -3,6 +3,6 @@ body {
   padding: 0;
   font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
-  background: linear-gradient(to left top, #38d9a9, #0ca678);
+  background-color: #ffd8a8;
   background-attachment: fixed;
 }

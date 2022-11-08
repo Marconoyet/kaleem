@@ -5,4 +5,8 @@ body {
   box-sizing: border-box;
   background-color: #ffd8a8;
   background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

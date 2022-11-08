@@ -1,10 +1,12 @@
 form {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 90px;
+
   background-color: #fff;
   max-width: 1000px;
   justify-content: center;
-  margin: 50px auto;
+  margin: 0 auto;
   border-radius: 18px;
   padding: 40px;
   text-align: center;
@@ -31,12 +33,13 @@ input {
 .container,
 .containerImg {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
 }
 
 .containerImg {
   grid-row: 1/7;
+  align-items: start;
 }
 
 form button {

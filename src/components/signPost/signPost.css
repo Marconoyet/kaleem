@@ -10,6 +10,8 @@ form {
   border-radius: 18px;
   padding: 40px;
   text-align: center;
+
+  box-shadow: 0 16px 32px rgb(0, 0, 0, 0.1);
 }
 
 form img {
